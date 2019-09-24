@@ -4,7 +4,15 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      
+      <View><Text>Almoço </Text></View>
+      <View>
+        <View><Text>Segunda</Text></View>
+      </View>
+      <View>
+        <Text>Prato 1: test</Text>
+        <Text>Prato 1: test2</Text>
+      </View>
     </View>
   );
 }
